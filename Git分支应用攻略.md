@@ -28,8 +28,8 @@
 1. 在Github（远程仓库）上创建初始化完成的项目GitTest，Github默认创建`master`分支。
 2. 在`master`分支基础上，创建分支`dev`分支用于发开。（该步骤也可省略，因为本地仓库提交到远程仓库时，如果分支在本地存在而在远程不存在，则远程仓库会自动创建同名分支）
 3. 在本地创建工作路径，并把远程库克隆到工作路径。有HTTPS和SSH两种克隆方式。
-  * SSH需要提前完成设置，参考：
-  * HTTPS方式
+   * SSH需要提前完成设置，参考：
+   * HTTPS方式
 
 ```
 $ git clone http://git.oschina.net/illikang/GitTest.git
