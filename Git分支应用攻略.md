@@ -35,6 +35,7 @@
 $ git clone http://git.oschina.net/illikang/GitTest.git
 ```
 注意，采用clone的方法复制项目到本地以后，本地仓库自动与远程仓库建立连接。以后要上传更改内容，只需要git push origin branch就可以。
+
 4. 项目克隆到本地以后，先查看项目分支情况:
 ```
 $ git branch -a
@@ -47,7 +48,6 @@ $ git branch -a
 >remotes/origin/master
 //可以看到，克隆以后的项目，有一个本地分支master和两个远程分支/origin/master和/origin/dev
 ```
-
 5. 创建个人工作分支并切换到该分支：
 ```
 $ git branch illikang
